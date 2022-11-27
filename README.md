@@ -20,22 +20,23 @@ This is a simple guide for New York that provides fun activities to do in some b
 - Run your virtual environment <br>
         ```python3 manage.py runserver```
 ## How program looks
-In order to run the program please in your internet server type: http://localhost:8000. The opening page looks like the following page:
+In order to run the program, please in your **internet server** type: http://localhost:8000. The opening page looks like the following page:
 ![Homepage](images/Homepage.jpg)
 
 
-If you click on any of the links they will take to activities offered at the borough, for example if you clicked Brooklyn and this is what shows up.
+If you click on any of the links they will take you to activities offered at the borough, for example if you clicked Brooklyn and this is what shows up.
 ![Borough Information](images/boroughInfo.jpg)
 
-If you clicked the beaches, you come to a list of beaches offered in Brooklyn, similar to opening page. If you were to click Coney Island the following would be displayed:
+If you clicked the beaches, you come to a list of beaches offered in Brooklyn, similar to the home page. If you were to click Coney Island the following would be displayed:
 ![Activity at Borough](images/beachAtBorough.jpg)
 
 If you have noticed on every page, there is a return home button. If you click that button, you will return home.
 
 ## Issues with Project
-- Getting images for each activity being offered - Looping through each borough to get it to display correctly
+- Getting images for each activity being offered, we used the url from the website 
+- Looping through each borough to get it to display correctly
 - Remembering how to setup the virtual environment
 - Styling was fun and yet difficult because we weren't sure how to set it up
 ## Contributors
- - Mikayla Munn : https://github.com/MikaylaMunn
- - Jonathan Wrenn : https://github.com/jonowrenn
+ - **Mikayla Munn** : https://github.com/MikaylaMunn
+ - **Jonathan Wrenn** : https://github.com/jonowrenn
