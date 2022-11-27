@@ -11,6 +11,7 @@
 <h1>{{ borough | title }}</h1>
 <body>
 <ul>
+    {% comment %} for each activity create a list item to click on for the user {% endcomment %}
     {% for activity in activities %}
     <li>
         <a href="{% url 'activity' borough activity %} "

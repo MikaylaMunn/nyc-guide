@@ -10,7 +10,9 @@
 </head>
 <body>
     <h1>{{venue | title}}</h1>
+    {% comment %} displays the image in the url {% endcomment %}
      <img src = {{img}} alt = "Sorry no image available" width = "650" height = "650">
+     {% comment %} gets the description {% endcomment %}
      <p>{{description}}</p>
      <a class="btn" href="/">Return Home</a>
 </body>

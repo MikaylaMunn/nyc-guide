@@ -16,6 +16,7 @@
 </p>
 
 <ul>
+    {% comment %} for loop for each borough being offered loop through the list and create a link for the user to click on  {% endcomment %}
     {% for borough in boroughs %}
     <li><a href="{% url 'borough' borough %}">{{ borough|title }}</a></li>
     {% endfor %}
