@@ -12,7 +12,7 @@ This is a simple guide for New York that provides fun activities to do in some b
         ```venv\Scripts\activate.bat```
     - For Mac:<br>
         ```. venv/bin/activate```
-    - Your virtaul environment should bee running in your terminal in 'venv' marker
+    - Your virtaul environment should be running in your terminal in 'venv' marker
 ### 3. Instal the Requirements
  - In order for the program to run we need to make sure we have the required libraries to run the program, programs change and update all the time, by running the following command you will install the proper ones to run this program. <br>
     ```pip install -r requirements```
