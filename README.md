@@ -1,38 +1,31 @@
 
-
-
 # This is our NYC GUIDE PROJECT #
 
 Instructions:
 
 ### 1. Create a Virtual Environment
-To create virtual environment, first you need to install python3-venv. Run:
-```$ sudo apt update```
-```$ sudo apt-get install python3-venv```
+To create virtual environment, first you create your virtual environment in the main folder. Run:<br>
 
-Create a virtual environment named myenv via running:
-```$ python3 -m venv myenv```
+```$ python3 -m venv venv```
 
-To activate myenv, run:
-```$ source myenv/bin/activate```
 
 from:https://py-vscode.readthedocs.io/en/latest/files/venv.html
 ### 2. Run the Virtual Environment
 - Run the following command:
     - For Windows:<br>
-        ```venv\Scripts\activate.bat```
+        ```$ venv\Scripts\activate.bat```
     - For Mac:<br>
-        ```. venv/bin/activate```
+        ```$ . venv/bin/activate```
     - Your virtaul environment should be running in your terminal in 'venv' marker`
 
 from:https://code.visualstudio.com/docs/python/tutorial-django
 ### 3. Install the Requirements
  - In order for the program to run we need to make sure we have the required libraries to run the program, programs change and update all the time, by running the following command you will install the proper ones to run this program. <br>
-    ```pip install -r requirements```
+    ```$ pip install -r requirements```
 
 ### 4. How to run Django App
 Run your virtual environment <br>
-        ```python3 manage.py runserver```
+        ```$ python3 manage.py runserver```
 
 ## How program looks
 In order to run the program, please in your **internet server** type: http://localhost:8000. The opening page looks like the following page:
