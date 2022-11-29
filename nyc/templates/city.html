@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York City Guide</title>
+    {%load static%}
+    <link rel ="stylesheet" href ="{% static 'style.css' %}"
+</head>
+<body>
 <h1>New York City Guide</h1>
 <p>
     Wondering about fun activities to do in the big city? Check out this
@@ -5,7 +16,11 @@
 </p>
 
 <ul>
+    {% comment %} for loop for each borough being offered loop through the list and create a link for the user to click on  {% endcomment %}
     {% for borough in boroughs %}
     <li><a href="{% url 'borough' borough %}">{{ borough|title }}</a></li>
     {% endfor %}
 </ul>
+
+</body>
+</html>

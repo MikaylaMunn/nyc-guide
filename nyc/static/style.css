@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    font-family: Marker Felt;
+    font-size: 5em;
+    text-shadow: 5px 5px 2px black;
+    margin-top: 15%;
+    color: white
+}
+
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+
+}
+ul > li {
+    display: inline;
+    margin-right: 14px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+a {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+body {
+    background-color: cadetblue;
+}
+.btn {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    padding: auto;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- # nyc-guide
 # READ ME #
 
@@ -99,3 +100,6 @@ Save all modified files.
 
 In the VS Code Terminal, again with the virtual environment activated, run the development server with python manage.py runserver and open a browser to http://127.0.0.1:8000/ to see a page that renders "Hello, Django". -->
 
+=======
+# NYC-Guide
+>>>>>>> dd62cacf44f1da742d7f138be76b748f682eb557
