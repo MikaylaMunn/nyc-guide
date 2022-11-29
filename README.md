@@ -9,16 +9,15 @@ Instructions:
 ```$ python3 -m venv venv```
 
 
-from:https://py-vscode.readthedocs.io/en/latest/files/venv.html
 ### 2. Run the Virtual Environment
 - Run the following command:
     - For Windows:<br>
         ```$ venv\Scripts\activate.bat```
     - For Mac:<br>
-        ```$ . venv/bin/activate```
+        ```$ .venv\scripts\activate```
     - Your virtaul environment should be running in your terminal in 'venv' marker`
 
-from:https://code.visualstudio.com/docs/python/tutorial-django
+
 ### 3. Install the Requirements
  - In order for the program to run we need to make sure we have the required libraries to run the program, programs change and update all the time, by running the following command you will install the proper ones to run this program. <br>
     ```$ pip install -r requirements```
@@ -48,4 +47,8 @@ If you have noticed on every page, there is a return home button. If you click t
 # Group Members are : 
  Jonathan Wrenn: https://github.com/jonowrenn <br>
  Mikayla Munn: https://github.com/MikaylaMunn
+### Documentation
+- https://code.visualstudio.com/docs/python/tutorial-django
+
+- https://py-vscode.readthedocs.io/en/latest/files/venv.html
 
