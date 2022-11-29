@@ -46,6 +46,6 @@ If you have noticed on every page, there is a return home button. If you click t
 - Remembering how to setup the virtual environment
 - Styling was fun and yet difficult because we weren't sure how to set it up
 # Group Members are : 
- Jonathan Wrenn: https://github.com/jonowrenn
+ Jonathan Wrenn: https://github.com/jonowrenn <br>
  Mikayla Munn: https://github.com/MikaylaMunn
 
