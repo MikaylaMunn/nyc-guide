@@ -4,7 +4,7 @@
 Instructions:
 
 ### 1. Create a Virtual Environment
-To create virtual environment, first you create your virtual environment in the main folder. Run:<br>
+- To create virtual environment, first you create your virtual environment in the main folder. Run:<br>
 
 ```$ python3 -m venv venv```
 
@@ -24,7 +24,7 @@ from:https://code.visualstudio.com/docs/python/tutorial-django
     ```$ pip install -r requirements```
 
 ### 4. How to run Django App
-Run your virtual environment <br>
+- Run your virtual environment <br>
         ```$ python3 manage.py runserver```
 
 ## How program looks
