@@ -20,7 +20,7 @@ Instructions:
 
 ### 3. Install the Requirements
  - In order for the program to run we need to make sure we have the required libraries to run the program, programs change and update all the time, by running the following command you will install the proper ones to run this program. <br>
-    ```$ pip install -r requirements```
+    ```$ pip install -r requirements.txt```
 
 ### 4. How to run Django App
 - Run your virtual environment <br>
